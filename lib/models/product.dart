@@ -1,6 +1,8 @@
 import 'dart:convert';
 
-import 'package:baitap_chuong4/models/db_reader.dart';
+import 'package:baitap_flutter_luutru/models/db_reader.dart';
+
+
 
 class Product {
   int id;
@@ -8,6 +10,7 @@ class Product {
   int price;
   String url;
   Product(this.id, this.name, this.price, this.url);
+
   Product.fromJson(Map<String, dynamic> json)
       : id = json["id"],
         name = json["name"],
@@ -18,9 +21,17 @@ class Product {
   static Future<void> loadData() async {
     InfoReader reader = InfoReader();
     String data = await reader.getInfo();
-    List<dynamic> list = jsonDecode(data);
-    for (var entry in list) {
+    List<dynamic> lst = jsonDecode(data);
+    for (var entry in lst) {
       products.add(Product.fromJson(entry));
     }
+  }
+  static GetId(List<Product> products, int id) {
+    for (var item in products) {
+      if (item.id == id) {
+        return item;
+      }
+    }
+    return null;
   }
 }

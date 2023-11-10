@@ -1,50 +1,50 @@
 [
-    {
-        "id": 1,
-        "name": "Điện thoại Xiaomi Redmi 9A 2GB/32GB Xám",
-        "price": 2350000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/691/10046546-dien-thoai-xiaomi-redmi-9a-2gb-32-gb-xam-1.jpg"
-    },
-    {
-        "id": 2,
-        "name": "Điện thoại Xiaomi Redmi 9C 3GB/64GB Xanh dương",
-        "price": 2790000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/691/10047321-dien-thoai-xiaomi-redmi-9c-3gb-64gb-xanh-duong-1.jpg"
-    },
-    {
-        "id": 3,
-        "name": "Điện thoại Samsung Galaxy Z Flip 4 5G 128GB Tím",
-        "price": 18590000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/816/10052915-1.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Điện thoại Vivo Y21s 6GB/128GB Trắng",
-        "price": 4390000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/751/10049937-dien-thoai-vivo-y21s-6gb-128gb-tr%E1%BA%AFng-1.jpg"
-    },
-    {
-        "id": 5,
-        "name": "Điện thoại Nokia C21 Plus 2GB/64GB Xám Ánh Kim",
-        "price": 2090000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/803/10052223-dien-thoai-nokia-c21-plus-2gb-64gb-xam-anh-kim-1.jpg"
-    },
-    {
-        "id": 6,
-        "name": "Điện thoại Nokia C21 Plus 2GB/64GB Xanh Thiên Thạch",
-        "price": 2090000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/803/10052242-dien-thoai-nokia-c21-plus-2gb-64gb-xanh-thien-thach-1.jpg"
-    },
-    {
-        "id": 7,
-        "name": "Điện thoại Samsung A53 5G 128GB Xanh",
-        "price": 7690000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/790/10051583-dien-thoai-samsung-a53-5g-128gb-xanh-1.jpg"
-    },
-    {
-        "id": 8,
-        "name": "Điện thoại Nokia 105 4G Xanh",
-        "price": 750000,
-        "url_img": "https://cdn.nguyenkimmall.com/images/detailed/808/10052227-dien-thoai-nokia-105-4g-xanh-1.jpg"
-    }
+  {
+    "id":1,
+    "name":"Điện thoại Xiaomi Redmi 9A 2GB/32GB Xám",
+    "price":2350000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/detailed/691/10046546-dien-thoai-xiaomi-redmi-9a-2gb-32-gb-xam-1.jpg"
+  },
+  {
+    "id":2,
+    "name":"Điện thoại Xiaomi Redmi 9C 3GB/64GB Xanh dương",
+    "price":2790000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/detailed/691/10047321-dien-thoai-xiaomi-redmi-9c-3gb-64gb-xanh-duong-1.jpg"
+  },
+  {
+    "id":3,
+    "name":"Điện thoại Samsung Galaxy Z Flip 4 5G 128GB Tím",
+    "price":18590000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/thumbnails/600/336/detailed/885/10055906-dien-thoai-samsung-galaxy-z-flip-5-5g-8gb-512gb-tim-1.jpg"
+  },
+  {
+    "id":4,
+    "name":"Điện thoại Vivo Y21s 6GB/128GB Trắng",
+    "price":4390000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/detailed/751/10049937-dien-thoai-vivo-y21s-6gb-128gb-tr%E1%BA%AFng-1.jpg"
+  },
+  {
+    "id":5,
+    "name":"Điện thoại Nokia C21 Plus 2GB/64GB Xám Ánh Kim",
+    "price":2090000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/detailed/803/10052223-dien-thoai-nokia-c21-plus-2gb-64gb-xam-anh-kim-1.jpg"
+  },
+  {
+    "id":6,
+    "name":"Điện thoại Nokia C21 Plus 2GB/64GB Xanh Thiên Thạch",
+    "price":2090000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/detailed/803/10052242-dien-thoai-nokia-c21-plus-2gb-64gb-xanh-thien-thach-1.jpg"
+  },
+  {
+    "id":7,
+    "name":"Điện thoại Samsung A53 5G 128GB Xanh",
+    "price":7690000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/detailed/790/10051583-dien-thoai-samsung-a53-5g-128gb-xanh-1.jpg"
+  },
+  {
+    "id":8,
+    "name":"Điện thoại Nokia 105 4G Xanh",
+    "price":750000,
+    "url_img":"https://cdn.nguyenkimmall.com/images/detailed/808/10052227-dien-thoai-nokia-105-4g-xanh-1.jpg"
+  }
 ]

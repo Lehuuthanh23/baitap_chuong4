@@ -1,5 +1,5 @@
-import 'package:baitap_chuong4/models/product.dart';
-import 'package:baitap_chuong4/view/item_view.dart';
+import 'package:baitap_flutter_luutru/models/product.dart';
+import 'package:baitap_flutter_luutru/views/item_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Product List'),
     );
   }
 }
@@ -32,82 +32,46 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<Product> _product =
+  List<Product> _products =
       List.filled(0, Product(0, '', 0, ''), growable: true);
-  void _loadData() {
+  void _LoadData() {
     Product.loadData().then((value) {
       setState(() {
-        _product = Product.products;
+        _products = Product.products;
       });
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    int count = (_product.length / 2).ceil();
+    int count = (_products.length / 2).ceil();
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
-        body: ListView.builder(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: ListView.builder(
           padding: const EdgeInsets.all(8),
           itemCount: count,
           itemBuilder: (BuildContext context, int index) {
-            if (_product.length % 2 != 0 && index == count - 1) {
+            if (_products.length % 2 != 0 && index == count - 1) {
               return Row(
-                children: [Item(pro: _product[index * 2])],
+                children: [Item(pro: _products[index * 2])],
               );
             } else {
-              Row(
+              return Row(
                 children: [
-                  Item(pro: _product[index * 2]),
-                  Item(pro: _product[index * 2 + 1])
+                  Item(pro: _products[index * 2]),
+                  Item(pro: _products[index * 2 + 1])
                 ],
               );
             }
-          },
-        ));
+          }),
+    );
   }
 
   @override
   void initState() {
     super.initState();
-    _loadData();
+    _LoadData();
   }
 }
-
- /* ListView.builder(
-        padding: const EdgeInsets.all(8),
-        itemCount: count,
-        itemBuilder: (BuildContext context, int index) {
-          if (_product.length % 2 != 0 && index == count - 1) {
-            return Row(ListView.builder(
-       padding: const EdgeInsets.all(8),
-       itemCount: count,
-       itemBuilder: (BuildContext context, int index) {
-         if (_product.length % 2 != 0 && index == count - 1){
-           return Row(
-             children: [Item(pro: _product[index * 2])],
-           );
-         } else {
-           Row(
-             children: [
-               Item(pro: _product[index * 2]),
-               Item(pro: _product[index * 2 + 1])
-             ],
-           );
-         }
-       },
-     ),
-              children: [Item(pro: _product[index * 2])],
-            );
-          } else {
-            Row(
-              children: [
-                Item(pro: _product[index * 2]),
-                Item(pro: _product[index * 2 + 1])
-              ],
-            );
-          }
-        },
-      ),*/
