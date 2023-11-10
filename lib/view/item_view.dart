@@ -1,5 +1,6 @@
-import 'package:baitap_chuong4/models/product.dart';
 import 'package:flutter/material.dart';
+
+import '../models/product.dart';
 
 class Item extends StatelessWidget {
   const Item({super.key, required this.pro});
